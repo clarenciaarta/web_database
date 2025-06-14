@@ -71,7 +71,6 @@ h1, h2, h3, h4, h5, h6 {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Sidebar */
 .sidebar {
     flex: 1;
     min-width: 200px;
@@ -153,7 +152,6 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #388E3C;
 }
 
-/* Daftar Artikel */
 .article-list h2 {
     color: #FF69B4;
     margin-bottom: 20px;
@@ -247,8 +245,7 @@ h1, h2, h3, h4, h5, h6 {
     margin: 5px 0;
     font-size: 0.9em;
 }
-
-@media (max-width: 768px) {
+(max-width: 768px) {
     .header {
         flex-direction: column;
         text-align: center;
